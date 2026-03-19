@@ -1,4 +1,5 @@
 ## Hi there ！👋 I am Furia!
+<!-- 第一部分：图标保持居中 -->
 <div align="center">
   <a href="https://x.com/jlwwnfzerykztwf?s=21">
     <img src="https://img.shields.io/badge/Twitter-推特-blue" />
@@ -13,8 +14,11 @@
   <img src="https://komarev.com/ghpvc/?username=FFFuria&label=Views&color=orange&style=flat" alt="访问量统计" />
 </div>
 
-<small>🎓 Undergraduate in Automation @ Guangdong University of Technology<br>
-📡 HAM Radio Enthusiast | Callsign: BG7KMU</small>
+<!-- 第二部分：文字左对齐，且通过 margin-top 与上方图标拉开 5px 距离 -->
+<div style="font-size: 13px; color: #555; margin-top: 30px; text-align: left;">
+  <p style="margin: 5px 0;">🎓 Undergraduate in Automation @ Guangdong University of Technology</p>
+  <p style="margin: 5px 0;">📡 HAM Radio Enthusiast | Callsign: BG7KMU</p>
+</div>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/FFFuria/FFFuria/raw/output/github-contribution-grid-snake-dark.svg" />
