@@ -17,7 +17,9 @@
 <!-- 第二部分：文字左对齐，且通过 margin-top 与上方图标拉开 5px 距离 -->
 <div style="font-size: 13px; color: #555; margin-top: 30px; text-align: left;">
   <p style="margin: 5px 0;">🎓 Undergraduate in Automation @ Guangdong University of Technology</p>
-  <p style="margin: 5px 0;">📡 HAM Radio Enthusiast | Callsign: BG7KMU</p>
+  <p style="margin: 5px 0;">🫡 Fool-stack Engineer | 🤖 PathPlanning & DeepLearning </p>
+  <p style="margin: 5px 0;">📡 HAM Radio Enthusiast | 📻 Callsign: BG7KMU</p>
+  <p style="margin: 5px 0;">🏎️ F1 Formula Enthusiast | 📸 Photographer</p>
 </div>
 
 <picture>
