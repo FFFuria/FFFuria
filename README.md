@@ -13,7 +13,7 @@
   <!-- visitor -->
   <img src="https://komarev.com/ghpvc/?username=FFFuria&label=Views&color=orange&style=flat" alt="访问量统计" />
 </div>
-
+<br>
 <!-- 第二部分：文字左对齐，且通过 margin-top 与上方图标拉开 5px 距离 -->
 <div style="font-size: 13px; color: #555; margin-top: 30px; text-align: left;">
   <p style="margin: 5px 0;">🎓 Undergraduate in Automation @ Guangdong University of Technology</p>
