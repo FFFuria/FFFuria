@@ -1,10 +1,16 @@
 ## Hi there 👋 I am Furia!
-<div>
-  <a href="https://x.com/jlwwnfzerykztwf?s=21"><img src="https://img.shields.io/badge/Twitter-推特-blue" /></a>&emsp;
-  <a href="https://fffuria.github.io/"><img src="https://img.shields.io/badge/Website-博客-8c36db" /></a>&emsp;
-  <a href="https://space.bilibili.com/400473542/"><img src="https://img.shields.io/badge/Bilibili-B站-ff69b4" /></a>&emsp;
+<div align="center">
+  <a href="https://x.com/jlwwnfzerykztwf?s=21">
+    <img src="https://img.shields.io/badge/Twitter-推特-blue" />
+  </a>&emsp;
+  <a href="https://fffuria.github.io/">
+    <img src="https://img.shields.io/badge/Website-博客-8c36db" />
+  </a>&emsp;
+  <a href="https://space.bilibili.com/400473542/">
+    <img src="https://img.shields.io/badge/Bilibili-B站-ff69b4" />
+  </a>&emsp;
   <!-- visitor -->
-  <img src="https://komarev.com/ghpvc/?username=FFFuria&label=Views&color=orange&style=flat" alt="访问量统计" />&emsp;
+  <img src="https://komarev.com/ghpvc/?username=FFFuria&label=Views&color=orange&style=flat" alt="访问量统计" />
 </div>
 
 <picture>
