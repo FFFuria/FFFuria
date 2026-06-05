@@ -50,7 +50,13 @@ Currently learning and experimenting with 2D path planning for electric power in
 </picture>
 
 <div align="center">
+  <img alt="Ocean path planning surface" src="https://raw.githubusercontent.com/FFFuria/FFFuria/main/assets/ocean-path-planning.svg" />
+</div>
+
+<!-- GitHub stats preserved for later
+<div align="center">
   <img height="155px" alt="Furia GitHub stats" src="https://readme-stats-github.pages.dev/api?username=FFFuria&theme=catppuccin_mocha&show_icons=true&hide_border=true" />
   &nbsp;&nbsp;
   <img height="155px" alt="Furia top languages" src="https://readme-stats-github.pages.dev/api/top-langs?username=FFFuria&theme=catppuccin_mocha&layout=compact&langs_count=6&hide_border=true" />
 </div>
+-->
