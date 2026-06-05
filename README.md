@@ -29,6 +29,16 @@
   <p style="margin: 5px 0;">🏎️ F1 Formula Enthusiast | 📸 Photographer</p>
 </div>
 
+<div align="left">
+
+### 🤖 Current Focus
+
+`Path Planning` · `Field Robotics` · `Electric Power Robots` · `AUV` · `Obstacle Avoidance`
+
+Currently learning and experimenting with 2D path planning for electric power inspection robots, while preparing to explore AUV path planning for underwater robotics.
+
+</div>
+
 <div align="center">
   <img alt="Tech Stack" src="https://skillicons.dev/icons?i=python,cpp,pytorch,opencv,ros,linux,git,github,arduino,docker,vscode&perline=11" />
 </div>
