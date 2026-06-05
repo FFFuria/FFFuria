@@ -36,7 +36,7 @@
 </picture>
 
 <div align="center">
-  <img height="137px" src="https://github-readme-stats.vercel.app/api?username=FFFuria&hide_title=true&hide_border=true&show_icons=true&line_height=21&text_color=000&icon_color=000&bg_color=0,ea6161,ffc64d,fffc4d,52fa5a&theme=graywhite" />
+  <img height="137px" alt="Furia GitHub stats" src="https://readme-stats-github.pages.dev/api?username=FFFuria&theme=shadow&show_icons=true&hide_title=true&hide_border=true" />
   &nbsp;&nbsp;
-  <img height="137px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=FFFuria&hide_title=true&hide_border=true&layout=compact&langs_count=6&text_color=000&icon_color=fff&bg_color=0,52fa5a,4dfcff,c64dff&theme=graywhite" />
+  <img height="137px" alt="Furia top languages" src="https://readme-stats-github.pages.dev/api/top-langs?username=FFFuria&theme=shadow&layout=compact&langs_count=6&hide_title=true&hide_border=true" />
 </div>
