@@ -1,0 +1,89 @@
+<svg width="900" height="360" viewBox="0 0 900 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Ocean path planning surface</title>
+  <desc id="desc">An oblique square ocean surface with planning grid, obstacle markers, and an AUV path.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="900" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#06121f"/>
+      <stop offset="0.55" stop-color="#08243a"/>
+      <stop offset="1" stop-color="#031018"/>
+    </linearGradient>
+    <linearGradient id="water" x1="140" y1="78" x2="760" y2="300" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#23d6e8"/>
+      <stop offset="0.45" stop-color="#0b88b3"/>
+      <stop offset="1" stop-color="#063860"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="158" y1="280" x2="774" y2="302" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#03283c"/>
+      <stop offset="1" stop-color="#011622"/>
+    </linearGradient>
+    <filter id="softGlow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="150%">
+      <feDropShadow dx="0" dy="24" stdDeviation="22" flood-color="#000" flood-opacity="0.35"/>
+    </filter>
+    <clipPath id="seaClip">
+      <polygon points="154,93 693,55 787,243 232,309"/>
+    </clipPath>
+    <pattern id="waves" width="92" height="36" patternUnits="userSpaceOnUse" patternTransform="skewX(-18)">
+      <path d="M0 18 C18 4 38 4 56 18 S88 32 92 18" stroke="#a8fff8" stroke-opacity="0.16" stroke-width="2" fill="none"/>
+    </pattern>
+  </defs>
+
+  <rect width="900" height="360" rx="22" fill="url(#bg)"/>
+  <circle cx="145" cy="74" r="110" fill="#1ad9ff" opacity="0.08"/>
+  <circle cx="735" cy="272" r="150" fill="#7df9ff" opacity="0.07"/>
+
+  <g filter="url(#shadow)">
+    <polygon points="232,309 787,243 787,268 232,336" fill="url(#edge)" opacity="0.9"/>
+    <polygon points="154,93 693,55 787,243 232,309" fill="url(#water)"/>
+    <polygon points="154,93 693,55 787,243 232,309" fill="url(#waves)" opacity="0.9"/>
+    <polygon points="154,93 693,55 787,243 232,309" stroke="#70f7ff" stroke-opacity="0.42" stroke-width="2"/>
+  </g>
+
+  <g clip-path="url(#seaClip)" opacity="0.32">
+    <path d="M199 91 L284 306 M252 84 L337 302 M305 78 L390 296 M358 72 L444 290 M411 66 L497 284 M464 61 L550 278 M517 58 L603 272 M570 55 L656 266 M623 52 L709 260" stroke="#d9ffff" stroke-width="1"/>
+    <path d="M160 119 L710 76 M172 147 L725 103 M184 176 L740 131 M196 204 L756 159 M208 232 L772 187 M220 260 L787 215 M232 288 L802 243" stroke="#d9ffff" stroke-width="1"/>
+  </g>
+
+  <g clip-path="url(#seaClip)">
+    <circle cx="376" cy="166" r="15" fill="#ff6b7a" opacity="0.2"/>
+    <circle cx="376" cy="166" r="7" fill="#ff6b7a"/>
+    <circle cx="565" cy="128" r="18" fill="#ffd166" opacity="0.18"/>
+    <circle cx="565" cy="128" r="7" fill="#ffd166"/>
+    <circle cx="642" cy="214" r="20" fill="#ff6b7a" opacity="0.18"/>
+    <circle cx="642" cy="214" r="8" fill="#ff6b7a"/>
+  </g>
+
+  <path d="M252 256 C318 226 338 184 402 188 C478 193 486 109 556 119 C625 129 650 177 729 151" stroke="#06121f" stroke-opacity="0.6" stroke-width="13" stroke-linecap="round" fill="none" clip-path="url(#seaClip)"/>
+  <path d="M252 256 C318 226 338 184 402 188 C478 193 486 109 556 119 C625 129 650 177 729 151" stroke="#e8fbff" stroke-width="5" stroke-linecap="round" fill="none" clip-path="url(#seaClip)"/>
+  <path d="M252 256 C318 226 338 184 402 188 C478 193 486 109 556 119 C625 129 650 177 729 151" stroke="#40f3ff" stroke-width="2" stroke-linecap="round" fill="none" filter="url(#softGlow)" clip-path="url(#seaClip)"/>
+
+  <g filter="url(#softGlow)">
+    <circle cx="252" cy="256" r="8" fill="#7CFF6B"/>
+    <circle cx="729" cy="151" r="8" fill="#7CFF6B"/>
+  </g>
+
+  <g transform="translate(520 114) rotate(-12)">
+    <path d="M0 -11 L34 0 L0 11 C6 5 6 -5 0 -11Z" fill="#f1fbff"/>
+    <path d="M2 -6 L21 0 L2 6 C5 2 5 -2 2 -6Z" fill="#1bb5d8"/>
+    <circle cx="25" cy="0" r="3" fill="#06121f"/>
+  </g>
+
+  <g font-family="Inter, Segoe UI, Arial, sans-serif">
+    <text x="56" y="72" fill="#d8fbff" font-size="22" font-weight="700">Path Planning Surface</text>
+    <text x="56" y="99" fill="#91cbd8" font-size="13">electric inspection robot -> future AUV</text>
+    <g transform="translate(56 122)">
+      <rect width="112" height="24" rx="12" fill="#0f3147" stroke="#2aaec8" stroke-opacity="0.5"/>
+      <text x="14" y="16" fill="#baf9ff" font-size="12">2D grid map</text>
+      <rect x="124" width="126" height="24" rx="12" fill="#0f3147" stroke="#2aaec8" stroke-opacity="0.5"/>
+      <text x="138" y="16" fill="#baf9ff" font-size="12">obstacle aware</text>
+      <rect x="262" width="106" height="24" rx="12" fill="#0f3147" stroke="#2aaec8" stroke-opacity="0.5"/>
+      <text x="276" y="16" fill="#baf9ff" font-size="12">AUV ready</text>
+    </g>
+  </g>
+</svg>
