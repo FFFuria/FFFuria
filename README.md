@@ -29,6 +29,10 @@
   <p style="margin: 5px 0;">🏎️ F1 Formula Enthusiast | 📸 Photographer</p>
 </div>
 
+<div align="center">
+  <img alt="Tech Stack" src="https://skillicons.dev/icons?i=python,cpp,pytorch,opencv,ros,linux,git,github,arduino,docker,vscode&perline=11" />
+</div>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github.com/FFFuria/FFFuria/raw/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://github.com/FFFuria/FFFuria/raw/output/github-contribution-grid-snake.svg" />
@@ -36,7 +40,7 @@
 </picture>
 
 <div align="center">
-  <img height="137px" alt="Furia GitHub stats" src="https://readme-stats-github.pages.dev/api?username=FFFuria&theme=shadow&show_icons=true&hide_title=true&hide_border=true" />
+  <img height="155px" alt="Furia GitHub stats" src="https://readme-stats-github.pages.dev/api?username=FFFuria&theme=catppuccin_mocha&show_icons=true&hide_border=true" />
   &nbsp;&nbsp;
-  <img height="137px" alt="Furia top languages" src="https://readme-stats-github.pages.dev/api/top-langs?username=FFFuria&theme=shadow&layout=compact&langs_count=6&hide_title=true&hide_border=true" />
+  <img height="155px" alt="Furia top languages" src="https://readme-stats-github.pages.dev/api/top-langs?username=FFFuria&theme=catppuccin_mocha&layout=compact&langs_count=6&hide_border=true" />
 </div>
