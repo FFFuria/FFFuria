@@ -1,9 +1,9 @@
 ## Hi there ！👋 I am Furia!
 
 <!-- year-progress:start -->
-⏳ Year progress: { ███████████████████████░░░░░░░ } 79.14%
+⏳ Year progress: { ███████████████████████░░░░░░░ } 79.21%
 
-⏰ Updated on Fri, 16 Oct 2026 20:26:15 GMT
+⏰ Updated on Sat, 17 Oct 2026 02:46:17 GMT
 <!-- year-progress:end -->
 
 <!-- 第一部分：图标保持居中 -->
